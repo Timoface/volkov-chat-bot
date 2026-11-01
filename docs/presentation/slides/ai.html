@@ -1,0 +1,26 @@
+<section id="ai" data-transition="fade" style="background:#110E0E;color:#F6EDE8;font-family:'Onest', Arial, sans-serif;padding:128px;display:flex;flex-direction:column;gap:48px">
+<div style="display:flex;flex-direction:column;gap:16px">
+<p style="font-size:28px;font-weight:600;letter-spacing:4px;text-transform:uppercase;color:#FF8562">Нейросеть</p>
+<h2 style="font-family:'Onest', Arial, sans-serif;font-size:72px;font-weight:700;line-height:1.1">Как я «научил» модель отвечать</h2>
+</div>
+<div style="display:flex;flex-direction:row;gap:32px">
+<div style="flex:1;display:flex;flex-direction:column;gap:16px;background:#1E1918;border:1px solid #3A2F2C;border-radius:24px;padding:40px">
+<h3 style="font-size:36px;font-weight:700;color:#FF8562">Инструкция</h3>
+<p style="font-size:28px;line-height:1.45;color:#C9BDB7">Кто она, тон «на вы», правила: только по базе, не выдумывать телефоны, не раскрывать закрытое, не просить пароли</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:16px;background:#1E1918;border:1px solid #3A2F2C;border-radius:24px;padding:40px">
+<h3 style="font-size:36px;font-weight:700;color:#FF8562">База знаний</h3>
+<p style="font-size:28px;line-height:1.45;color:#C9BDB7">Статьи, службы и контакты подставляются в каждый запрос — с учётом профиля</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:16px;background:#1E1918;border:1px solid #3A2F2C;border-radius:24px;padding:40px">
+<h3 style="font-size:36px;font-weight:700;color:#FF8562">Служебная метка</h3>
+<p style="font-size:28px;line-height:1.45;color:#C9BDB7">В конце ответа модель пишет, на какой документ опиралась и какая служба нужна</p>
+</div>
+</div>
+<div style="display:flex;flex-direction:row;gap:32px;border-top:1px solid #3A2F2C;padding:32px 0 0 0">
+<p style="flex:1;font-size:28px;line-height:1.4;color:#F6EDE8"><b>Модель:</b> zai-org/GLM-5.3-Flash</p>
+<p style="flex:1;font-size:28px;line-height:1.4;color:#F6EDE8"><b>Занята?</b> Запасные модели, затем база знаний</p>
+<p style="flex:1;font-size:28px;line-height:1.4;color:#F6EDE8"><b>Ключ API</b> хранится только на сервере</p>
+</div>
+<aside>Модель я не переобучал — это дорого и долго. Вместо этого в каждый запрос сервер подставляет инструкцию и базу знаний. Инструкция задаёт роль, тон и правила. База знаний — только разрешённые профилю документы. В конце ответа модель ставит служебную метку, по которой сайт показывает карточку специалиста. Если модель перегружена, сервер переключается на запасную, а если недоступны все — отвечает по базе знаний. Ключ API хранится только на сервере.</aside>
+</section>

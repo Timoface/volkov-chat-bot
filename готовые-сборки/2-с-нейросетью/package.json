@@ -1,0 +1,13 @@
+{
+  "name": "volkov-navigator",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Навигатор компании — собранный сайт с сервером для нейросети. Зависимости не нужны.",
+  "scripts": {
+    "start": "node server/serve.mjs"
+  },
+  "engines": {
+    "node": ">=22.18"
+  }
+}

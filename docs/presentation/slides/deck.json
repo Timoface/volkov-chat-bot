@@ -1,0 +1,19 @@
+{
+  "v": 4,
+  "createdOnFiles": {"v": 1, "at": "2026-10-22T13:30:00Z"},
+  "lists": "css",
+  "title": "Навигатор компании — защита проекта",
+  "cover": "cover",
+  "order": ["cover", "company", "problem", "goal", "solution", "demo", "access", "ai", "site", "brand", "tech", "results", "future", "thanks"],
+  "sections": {
+    "intro": {"description": "Кто я, о какой компании проект и какую проблему он решает", "start": "cover"},
+    "task": {"description": "Цель и задачи проекта", "start": "goal"},
+    "solution": {"description": "Как устроен «Навигатор»: чат, права доступа, нейросеть", "start": "solution"},
+    "build": {"description": "Сайт, 3D-модель, фирменный стиль и технологии", "start": "site"},
+    "finish": {"description": "Результаты, развитие и вопросы", "start": "results"}
+  },
+  "faces": {
+    "onest": {"family": "Onest", "href": "https://fonts.googleapis.com/css2?family=Onest:wght@400..800&display=swap"}
+  },
+  "designSystems": []
+}
